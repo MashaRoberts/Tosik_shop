@@ -1,0 +1,227 @@
+.foncatalog{
+    background-color: #f3f3f3;
+}
+.foncatal img{
+     width: 1400px;
+margin-left: 50px;
+}
+/* Ветаптека */
+.pharmacy{
+    width:540px;
+    height:200px;
+    border-radius: 50px;
+    margin-top: -50px;
+    margin-left:100px ;
+    background: #f3f3f3;
+}
+.photopha{
+    margin-top: -135px;
+    margin-left:140px ;
+    
+}
+.textph{
+    font-size: 25px;
+	font-family:"Arial";
+	font-weight:lighter;
+    margin-top: 50px;
+	margin-left: 40px;
+}
+
+/* Акции */
+.stock{
+    width:540px;
+    height:200px;
+    border-radius: 50px;
+    margin-top: -50px;
+    margin-left: 100px;
+    background: #f3f3f3;
+}
+.textst{
+    font-size: 25px;
+	font-family:"Arial";
+	font-weight:lighter;
+    margin-top: 50px;
+	margin-left: 40px; 
+}
+
+.categorie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.categories{
+    display: flex;
+    margin-top: -50px;
+    justify-content: center;
+    gap: 50px;
+}
+.dog{
+    width:540px;
+    height:200px;
+    border-radius: 50px;
+    /* margin-top: 80px; */
+    margin-left:100px ;
+    background: #f3f3f3;
+}
+.cat{
+    width:540px;
+    height:200px;
+    border-radius: 50px;
+    /* margin-top: 80px; */
+    margin-left:100px ;
+    background: #f3f3f3;
+}
+.buttonk2{
+   background-color: #FFD700;
+    margin-left: 40px;
+    height: 45px;
+   width: 150px;
+   border-radius: 20px;
+   border: none;
+   margin-top: 10px;
+   font-size:20px ;
+}
+
+.photok{
+    margin-top: -130px ;
+    margin-left: 130px;
+
+}
+.photok img {
+    width: 540px;
+    height: 200px;
+}
+.photok2{ 
+    margin-top: -120px;
+   /* text-align: end; */
+}
+.photok2 img{
+    width: 220px;
+    height: 180px;
+    margin-left: 330px;
+    margin-top: -10px;
+}
+.photopha img{
+    width: 540px;
+    height: 203px;
+}
+.photostok img{
+    margin-top: -180px ;
+    margin-left: 130px;
+    width: 590px;
+    height: 290px; 
+}
+
+
+.titlee1{
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 771px) {
+    .container {
+        width: 770px;
+      }
+    .categories-title{
+    margin-top: 25px;
+}
+.foncatal img{
+width: 700px;
+}
+.categories{
+    margin: 0;
+    padding-top: 0;
+    gap: 50px;
+}
+.dog{
+    width: 315px;
+    height: 140px;
+    margin-left: 0px;
+}
+.textph{
+    font-size: 20px;
+    
+}
+.buttonk2{
+    width: 105px;
+    height: 30px;
+    font-size: 15px;
+}
+.photok img {
+    width: 105px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+.cat{
+    width: 315px;
+    height: 140px;
+    margin-left: 0px;
+}
+.photok2 img{
+    width: 110px;
+  margin-left: 202px;
+  border-radius:100px ;
+  margin-top: -20px;
+}
+.pharmacy{
+    width: 315px;
+    height: 140px;
+    margin-left: 0;
+}
+.photopha img{
+    width: 105px;
+    height: 105px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.stock{
+    width: 315px;
+    height: 140px;
+    margin: 0;
+    margin-top: -50px;
+}
+.photostok img{
+    width: 250px; 
+    margin-top: -190px;
+}
+
+.textst{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 431px) {
+    .container {
+        width: 430px;
+      }
+.categories{
+    display: inline-grid;
+    justify-content: center;
+}
+.foncatal img{
+    width: 350px;
+    }
+      .dog{
+        width: 300px;
+      }
+    .cat{
+    width: 300px;  
+    }
+    .photok2 img{
+        margin-top: -20px;
+        margin-left: 185px;
+    }
+    .pharmacy{
+        width: 300px;   
+    }
+    .stock{
+        width: 300px;
+        margin-top:0;  
+    }
+    .photostok img{
+        margin-left: 110px;
+    }
+
+}

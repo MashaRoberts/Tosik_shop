@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blocks/index.css" />
+    <title>Document</title>
+  </head>
+ <body>
+    <div class="container">
+    <section class="main-screen">
+      <header class="header">
+        <div class="container">
+          <div class="nav">
+            <a href="index.html" class="logo" >
+              <img src="media/TOSIKSHOP.svg"  />
+            </a>
+            <div class="nav-items">
+              <a href="cats.html" class="title-item">Для кошек</a>
+              <a href="dog.html" class="title-item2">Для собак</a>
+              <a href="veterinare.html" class="title-item1">Ветаптека</a>
+              <a href="sale.html" class="title-item">Акции</a>
+            </div>
+            <div class="nav-btn">
+              <a href="profile.html"
+                ><img class="image_2" src="media/office.svg"
+              /></a>
+              <a href="favourites.html"
+                ><img class="image_3" src="media/favourites.svg"
+              /></a>
+              <a href="basket.html"
+                ><img class="image_4" src="media/basket.svg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-greeting">
+        <div class="container-greeting">
+          <div class="main-background">
+            <div class="main-text1">TOSIK</div>
+            <div ><img class="main-img" src="./media/TS.svg" alt="background"  /></div>
+            <div class="main-text2">SHOP</div>
+          </div>
+          <input type="button" value="КАТАЛОГ" class="main-btn-catalog" onClick="window.location='catalog.html'" />
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h2 class="categories-title">Категории</h2>
+        <div class="categories-items">
+          <div class="categories-item">
+            <div class="categories-item-left-block">
+              <div class="categories-item-title">Всё для собак</div>
+              <input
+                type="button"
+                value="Подробнее >"
+                class="categories-item-btn"
+                onClick="window.location='dog.html'"
+              />
+            </div>
+            <div>
+              <img class="categories-item-img" src="media/doog.svg" alt="dog" />
+            </div>
+          </div>
+          <div class="categories-item">
+            <div class="categories-item-left-block">
+              <div class="categories-item-title">Всё для кошек</div>
+              <input
+                type="button"
+                value="Подробнее >"
+                class="categories-item-btn"
+                onClick="window.location='cats.html'"
+              />
+            </div>
+            <div >
+              <img class="categories-item-img-cat" src="media/cat.svg" alt="cat"  />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="populars">
+      <div class="container">
+        <h2 class="populars-title">Популярное</h2>
+        <div class="populars-items">
+          <div class="populars-item" onClick="window.location='product_page.html'">
+            <div class="populars-item-img"  >
+              <img src="media/percat.svg" alt="percat"   />
+            </div>
+            <h4 class="populars-name">Perfect Fit</h4>
+            <h5 class="populars-directions">
+              Сухой корм для стерилизованных котов
+            </h5>
+            <div class="populars-weigth">1,2 кг</div>
+            <div class="populars-extra">
+              <div class="populars-prices">
+                <h6 class="populars-new-price">625 p.</h6>
+                <h6 class="populars-old-price">755 p.</h6>
+              </div>
+              <div class="populars-item-btns">
+                <input
+                  type="image"
+                  src="media/like.svg"
+                  class="popular-btn-like"
+                />
+                <button class="popular-btn-basket"
+                  type="button"  onclick= "showModal('.modal-compilate')"
+                 ><span class="popular-btn-basket">В корзину</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="populars-item">
+            <div class="populars-item-img">
+              <img src="media/abba.svg"  alt="percat"  />
+            </div>
+            <h4 class="populars-name">Abba</h4>
+            <h5 class="populars-directions">
+              Сухой корм для взрослых собак всех пород с чувствительным пищеварением 
+            </h5>
+            <div class="populars-weigth">12 кг</div>
+            <div class="populars-extra">
+              <div class="populars-prices">
+                <h6 class="populars-new-price">3900 p.</h6>
+                <h6 class="populars-old-price">4959 p.</h6>
+              </div>
+              <div class="populars-item-btns">
+                <input
+                  type="image"
+                  src="media/like.svg"
+                  class="popular-btn-like"
+                />
+                <button class="popular-btn-basket"
+                type="button"  onclick= "showModal('.modal-compilate')"
+               ><span class="popular-btn-basket">В корзину</span>
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="populars-item">
+            <div class="populars-item-img">
+              <img src="media/smart.svg" alt="percat" />
+            </div>
+            <h4 class="populars-name">Smart Dog</h4>
+            <h5 class="populars-directions">
+              Лакомства жевательное лакомство с витаминами и минералами для собак и щенков
+            </h5>
+            <div class="populars-weigth">M</div>
+            <div class="populars-extra">
+              <div class="populars-prices">
+                <h6 class="populars-new-price">72 p.</h6>
+                <h6 class="populars-old-price">75 p.</h6>
+              </div>
+              <div class="populars-item-btns">
+                <input
+                  type="image"
+                  src="media/like.svg"
+                  class="popular-btn-like"
+                />
+                <button class="popular-btn-basket"
+                  type="button"  onclick= "showModal('.modal-compilate')"
+                 ><span class="popular-btn-basket">В корзину</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="populars-item">
+            <div class="populars-item-img">
+              <img src="media/lac.svg" alt="percat" />
+            </div>
+            <h4 class="populars-name">Деревенские лакомства</h4>
+            <h5 class="populars-directions">
+              Дольки крольчатины нежные для кошек (100% мясо)
+            </h5>
+            <div class="populars-weigth">45 г</div>
+            <div class="populars-extra">
+              <div class="populars-prices">
+                <h6 class="populars-new-price">202 p.</h6>
+                <h6 class="populars-old-price">250 p.</h6>
+              </div>
+              <div class="populars-item-btns">
+                <input
+                  type="image"
+                  src="media/like.svg"
+                  class="popular-btn-like"
+                />
+                <button class="popular-btn-basket"
+                  type="button"  onclick= "showModal('.modal-compilate')"
+                 ><span class="popular-btn-basket">В корзину</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery-container">
+          <div >
+            <img class="gallery-left" src="media/photos.svg" alt="gallery" />
+          </div>
+          <div class="gallery-right">
+            <h2 class="gallery-title">Фотогалерея</h2>
+            <h3 class="gallery-direction">
+              Фотографии домашних любимцев, наших покупателей
+            </h3>
+            <input type="button" value="Фотогалерея" class="gallery-btn" onClick="window.location='photogallery.html'" />
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+    <footer class="footer">
+        <a href="index.html" class="logo" >
+          <img  src="media/TOSIKSHOP.svg" />
+        </a>
+        <div class="footer-customers">
+          <div class="customer">
+            <h2 class="customers-title">Покупателем</h2>
+            <div class="customers-links">
+              <a href="" class="customers-link">Доставка и оплата</a>
+              <a href="" class="customers-link">Обратная связь</a>
+              <a href="sale.html" class="customers-link">Акции</a>
+              <a href="photogallery.html" class="customers-link">Фотогалерея</a>
+            </div>
+          </div>
+          <div class="shop">
+            <h2 class="customers-title">Магазин</h2>
+            <div class="customers-links">
+              <a href="cats.html" class="customers-link">Для кошек</a>
+              <a href="dog.html" class="customers-link">Для собак</a>
+              <a href="catalog.html" class="customers-link">Каталог</a>
+            </div>
+          </div>
+          <div class="contacts">
+            <h2 class="customers-title">Контакты</h2>
+            <div class="customers-links">
+              <a  class="customers-link">8(800)777-77-77</a>
+            </div>
+          </div>
+        </div>
+    </footer>
+ <div class="modal-over">
+    <dialog class="modal-compilate" > 
+      <div class="modal-compilate_content">
+      <div class="modal-compilate_close"> 
+         <button class="content_close"  type="button" onclick="closeModal('.modal-compilate')">
+          <div class="close_img">
+          <img src="media/close.svg"></div>
+        </button> 
+      </div>
+      <div class="modal-compilate_text">
+        <p class="text_content">Товар добавлен в корзину</p>
+       </div>
+     </div>
+</dialog>
+    </div>
+<script defer src="modal_windows.js"></script>
+   </body>
+
+</html>

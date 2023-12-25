@@ -1,0 +1,62 @@
+
+.main-textt{
+    font-size: 80px;
+    position: absolute;
+    margin-right: 800px;
+    margin-top: -300px;
+    font-family: 'Inter', sans-serif;
+}
+
+.dogphot{
+    margin-left: 50px;
+}
+.dogProd{
+    margin-top: 5px;  
+    margin-left: -80px;
+}
+.dogProd1{
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.dogProd2{
+    margin-left: 100px;
+
+}
+.textprod1_1{
+    font-size: 25px;
+    font-family:"Calibri Light";
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 120px;
+    color: black;
+}
+.textprod1_11{
+    font-size: 25px;
+    font-family:"Calibri Light";
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 140px;
+    color: black;
+}
+
+ .kg011{
+    font-size: 15px;
+    margin-top: -32px;
+    margin-left: 40px;
+    color: black;
+ }
+
+ @media screen and (max-width: 771px) {
+    .main-textt {
+        font-size: 40px;
+        margin-right: 400px;
+        margin-top: -150px;
+    }
+ }
+ @media screen and (max-width: 431px) {
+    .main-textt {
+        font-size: 20px;
+        margin-right: 200px;
+        margin-top: -80px;
+    }
+ }

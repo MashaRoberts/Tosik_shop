@@ -1,0 +1,109 @@
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textfov{
+    font-size: 45px;
+	font-family:"Arial";
+    font-weight:bold;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.textf{
+    font-size: 20px;
+	font-family:"Arial"; 
+    margin-left: 70px;
+    color: #5F5F5F;
+}
+.blok2_{
+    background-color: #F3F3F3;
+    width: 380px;
+    height: 460px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 50px;  
+    margin-right: 90px;
+}
+.textpro{
+    color: black;
+    font-size: 14px;
+    margin-left:30px ;
+    margin-top: -28px;
+    font-family:"Calibri Light";
+    font-weight: bold;
+}
+.price02{
+    font-family:"Arial";
+    font-size: 16px;  
+    margin-left: 155px;
+    margin-top: -40px;
+    text-decoration: line-through;
+	text-decoration-color: red;
+    color: black;
+}
+.price01{
+    font-family:"Arial";
+    font-size: 30px;  
+    margin-left: 45px;
+    margin-top: 10px;
+    color: black;
+}
+.kg01{
+    font-size: 15px;
+    margin-top: -32px;
+    margin-left: 45px;
+    color: black;
+}
+.textpr{
+    font-family:"Arial";
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -20px ;
+   margin-left:35px ;
+   color: black;
+}
+.textpp{
+    font-size: 25px;
+    font-family:"Calibri Light";
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 130px;
+    color: black;
+}
+.textpe{
+    font-size: 25px;
+    font-family:"Calibri Light";
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: 150px;
+    color: black;
+}
+.kg01g{
+    font-size: 15px;
+    margin-top: -32px;
+    margin-left: 50px;
+    color: black;
+}
+.perc{
+    margin-top: -20px;
+    margin-left: -110px;
+}
+.perrc{
+   margin-left: -100px;
+}
+
+@media screen and (max-width: 771px) {
+    .textfov{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .textfov{
+        font-size: 20px;
+    }
+    .textf{
+        font-size: 15px;
+    }
+}

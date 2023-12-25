@@ -1,0 +1,226 @@
+.greetingp{
+    background-color: #F3F3F3;
+    }
+.fonp img{
+    margin-left: 20px;
+    width: 1600px;
+}
+.pet{
+    width: 600px;
+    height: 120px;
+    border-radius: 50px;
+    background: #FFD700;
+    margin-left: 450px;
+    margin-top: 100px;
+    border: none;
+    font-size: 30px;
+}
+.pet:hover{
+   background-color: #d9d9d9;
+}
+.textpet{
+    font-size: 40px;
+    font-family: Arial;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+.main_phot{
+   display: inline-block;
+margin-top: 10px;
+   
+}
+.main2{
+    font-weight: inherit;
+    font-family: 'Arial';
+    font-size: 25px;
+    
+}
+.main1{
+    font-weight: inherit;
+    font-family: arial;
+    font-size: 25px;
+    
+}
+.main p:after {
+    background-color: #FFD700; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 3px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.main p:hover:after,
+.main p:focus:after {
+    width: 90%;
+}
+
+.further{
+    margin-left: 107px;
+    margin-top: -24px;
+}
+
+
+
+.photblok1{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+.blok1{
+   width:450px;
+   height:700px;
+   background: #f0efef;
+   border-radius: 50px;
+   margin-top: 100px;
+   margin-left: 150px;
+  margin-right: 80px;
+}
+.baks{
+   margin-left: -225px;
+   margin-top: 20px;
+}
+.tebaks{
+   margin-left: 195px;
+   font-size: 35px;
+   margin-top: 8px;
+}
+.teb{
+   font-size: 25px;
+   margin-left: 200px;
+}
+
+.photblok2{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap; 
+}
+.tebarni{
+   margin-left: 190px;
+   font-size: 35px;
+   margin-top: 8px;
+}
+
+.photblok3{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap; 
+}
+.teelya{
+   margin-left: 190px;
+   font-size: 35px;
+   margin-top: 8px;
+}
+.teb3{
+   font-size: 25px;
+   margin-left: 190px;
+
+}
+
+.photblok4{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap; 
+}
+.temarti{
+   margin-left: 150px;
+   font-size: 35px;
+   margin-top: 8px;
+}
+.teb1{
+   font-size: 25px;
+   margin-left: 190px;
+  
+}
+.tetos{
+   margin-left: 180px;
+   font-size: 35px;
+   margin-top: 8px;  
+}
+.teb2{
+   font-size: 25px;
+   margin-left: 160px;
+   
+}
+
+.titlee2{
+   margin-top:150px ;
+   margin-left: 100px;
+}
+.baks img{
+   width: 900px;
+   height: 550px;
+}
+
+@media screen and (max-width: 771px) {
+
+   .container {
+      width: 770px;
+    }
+    .fonp img{
+      width: 800px;
+    }
+    .potocat{
+      display: flex ;
+      justify-content: center;
+    }
+    .link_main{
+      display: none;
+    }
+
+   .blok1{
+      width: 260px;
+      height: 410px; 
+      margin-left: 70px;
+     
+   }
+
+   .baks img{
+       width: 205px;
+       height: 400px;
+       margin-left: 250px;
+       margin-top: -60px;
+   }
+   .text_cat{
+      width: 350px;
+      margin-top: -60px;
+      margin-left: -100px;
+   }
+   .tebaks p{
+      font-size: 20px;
+   }   
+   .teb p{
+      font-size: 20px;
+   }
+   .pet{
+      /* margin: 0; */
+      margin-top: 50px;
+      margin-left: 200px;
+      width: 400px;
+      height: 100px;
+      font-size: 20px;
+   }
+}
+  @media screen and (max-width: 431px){
+   .container {
+      width: 430px;
+    }
+    .fonp img{
+      width: 400px;
+    }
+    .blok1{
+      margin-left: 90px;
+    }
+    .pet{
+      width: 200px;
+      height: 50px;
+      font-size: 11px;
+      margin-left: 120px;
+    }
+
+  } 

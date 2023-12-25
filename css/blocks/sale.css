@@ -1,0 +1,96 @@
+.previewsale{
+    background-color: #F3F3F3;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+.salepreviw{
+    margin-left: 10px;
+}
+.promotions{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+}
+.sale2{
+    margin-left: -15px;
+}
+.sale3{
+    margin-left: -15px;
+}
+.sale4{
+    margin-left: -15px;
+}
+.sale1 img{
+    width: 400px;
+    height: 400px;
+}
+.sale2 img{
+    width: 400px;
+    height: 400px;
+}
+.sale3 img{
+    width: 400px;
+    height: 400px;
+}
+.sale4 img{
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 771px){
+    .container{
+        width: 770px;
+    }
+    .main-img1 img{
+        width: 700px;
+    }
+    .sale1 img{
+        width: 300px;
+        height: 300px;
+    }
+    .sale2 img{
+        width: 300px;
+        height: 300px;
+    }
+    .sale3 img{
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .sale4 img{
+        width: 300px;
+        height: 300px;
+    }
+    .promotions{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 431px){
+    .container{
+        width: 430px;
+    }
+    .main-img1 img{
+        width: 400px;
+    }
+    .sale1 img{
+        width: 250px;
+        height: 250px;
+    }
+    .sale2 img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .sale3 img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .sale4 img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+}

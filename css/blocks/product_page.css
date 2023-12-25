@@ -1,0 +1,260 @@
+.inbasketproduct{
+    width: 450px;
+    height: 120px;
+    border-radius: 40px;
+    background: #FFD700;
+    margin-left: 800px;  
+    margin-top: 150px;
+    border: none;
+    font-size: 50px ;
+    background-size: 100px 90px;
+    background-repeat:no-repeat;
+    background-position: -10px;
+}
+
+.main11{
+    margin-bottom: 15px;
+    font-weight: inherit;
+}
+.main11 p:after {
+    background-color: #FFD700; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 3px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.main11 p:hover:after,
+.main11 p:focus:after {
+    width: 90%;
+}
+.like2{
+   margin-left: -120px; 
+} 
+.bask2{
+    margin-top: -40px;
+}
+.preview{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.pertext{
+    font-size: 40px;
+	font-family:"Arial";
+    font-weight: bold;
+    margin-left: 900px;
+    margin-top: -450px;
+}
+.kortext{
+    font-size: 30px;
+	font-family:"Arial";
+    margin-left:700px ;
+}
+.pprice{
+    font-size: 80px;
+	font-family:"Arial";
+    margin-left: 850px;
+}
+.pprice2{
+    font-size: 50px;
+	font-family:"Arial";
+    margin-left: 1100px;
+    margin-top: -80px;
+    text-decoration: line-through;
+	text-decoration-color: red;
+}
+.hart{
+    margin-left: 870px;
+    margin-top: 100px;
+}
+.knop{
+    margin-left: 1000px;
+    margin-top: -105px;
+}
+.characteristic{
+    font-family:"Arial";
+    font-size: 45px;
+    margin-top: 120px;
+    padding-bottom: 50px;
+}
+.description{
+    width: 900px;
+}
+.textdescript{
+    font-family:"Arial";
+    font-size: 30px; 
+    display: flex;
+    margin-top: -30px;
+    text-align: justify;
+
+}
+.norma{
+    margin-top: -40px;
+    margin-left: -20px;
+}
+.miska{
+    font-family:"Arial";
+    font-size: 30px;
+    margin-top: -20px;
+    text-align: justify;
+}
+.fit-kot{
+    margin-left: 1000px;
+    margin-top: -850px;
+}
+.titlee_product{
+    margin-top:700px ;
+    margin-left: 50px;
+}
+.further2{
+    margin-left: 137px;
+    margin-top: -40px;
+}
+.z img{
+    width: 500px;
+    height: 500px;
+}
+.footer_product{
+        margin-top: 700px;
+        margin-bottom: 30px;
+        display: flex;
+
+}
+.fit-kot img{
+    width: 440px;
+    height: 220px;
+}
+.norma img{
+    width: 900px;
+    height: 300px;
+}
+@media screen and (max-width: 771px){
+    .container {
+        width: 770px;
+      }
+      .link_main{
+        display: none;
+      }
+      .z img{
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+      }
+      .pertext{
+        font-size: 35px;
+        margin: 0;
+        margin-left: 450px;
+        margin-top: -250px;
+      }
+      .kortext{
+        font-size: 20px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 350px;
+      }
+      .pprice{
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 400px;
+      }
+      .pprice2{
+        font-size: 30px ;
+        margin-top: -20px;
+        margin-left: 600px ;
+      }
+      .inbasketproduct{
+        width: 250px;
+        height: 70px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 450px;
+      }
+      .characteristic{
+        font-size: 20px;
+      }
+      .textdescript{
+        font-size: 20px;
+        width: 500px;
+      }
+      .fit-kot img{
+        width:220px ;
+        margin-left: -450px;
+        margin-top: 150px;
+      }
+      .norma img{
+        width: 600px;
+      }
+      .miska{
+        font-size: 20px;
+        width: 500px;
+      }
+      .footer_product {
+        margin-top: 550px;
+      }
+    }
+    @media screen and (max-width: 431px){
+    .container{
+    width: 430px;
+    }
+    .z img{
+        width: 200px;
+        height: 200px;
+      }
+      .pertext{
+        font-size: 20px;
+        /* margin: 0; */
+        margin-left: 250px;
+        margin-top: -200px;
+      }
+      .kortext{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 220px;
+      }
+      .pprice{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 250px;
+      }
+      .pprice2{
+        font-size: 20px ;
+        margin-top: -20px;
+        margin-left: 350px ;
+      }
+      .inbasketproduct{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 250px;
+      }
+      .characteristic{
+        font-size: 15px;
+      }
+      .textdescript{
+        font-size: 13px;
+        width: 250px;
+      }
+      .fit-kot img{
+        width:150px ;
+        margin-left: -730px;
+        margin-top: 300px;
+      }
+      .norma img{
+        width: 400px;
+        margin-top: -50px;
+      }
+      .miska{
+        font-size: 13px;
+        margin-top: -80px;
+        width: 250px;
+      }
+      .footer_product{
+        margin-top: 350px;
+        display:flex ;
+        flex-wrap: wrap;
+          justify-content: space-evenly;
+      }
+    }
